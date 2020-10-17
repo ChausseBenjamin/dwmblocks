@@ -2,12 +2,13 @@
 static const Block blocks[] = {
     /*Icon*/    /*Command*/        /*Update Interval*/    /*Update Signal*/
     {"",        "dwmb-dotfiles",   0,                     7},
-    {"",        "dwmb-date",       0,                     6},
  /* {"",        "dwmb-test",       0,                     5}, */
-    {"",        "dwmb-layout",     0,                     4},
     {"",        "dwmb-news",       0,                     3},
     {"",        "dwmb-vpn",        0,                     2},
-    {"",        "dwmb-bat",        0,                     1},
+    {"",        "dwmb-layout",     0,                     4},
+    {"",        "dwmb-date",       0,                     6},
+    {"",        "dwmb-time",       0,                     8},
+    {"",        "dwmb-battery",    0,                     1},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
