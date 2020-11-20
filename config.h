@@ -3,6 +3,7 @@ static const Block blocks[] = {
     /*Icon*/    /*Command*/        /*Update Interval*/    /*Update Signal*/
     {"",        "dwmb-mail",       0,                     12},
     {"",        "dwmb-dotfiles",   0,                     7},
+    {"",        "dwmb-debarque",   0,                     17},
  /* {"",        "dwmb-test",       0,                     5}, */
     {"",        "dwmb-news",       0,                     3},
     {"",        "dwmb-vpn",        0,                     2},
