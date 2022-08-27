@@ -1,11 +1,13 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
     /*Icon*/    /*Command*/        /*Update Interval*/    /*Update Signal*/
-    /* {"",        "dwmb-mail",       0,                     12}, */
+    {"",        "dwmb-mail",       0,                     12},
     /* {"",        "dwmb-pacman",     0,                     9}, */
     /* {"",        "dwmb-dotfiles",   0,                     7}, */
  /* {"",        "dwmb-debarque",   0,                     17}, */
     /* {"",        "dwmb-todoist",    0,                     5}, */
+    {"",        "dwmb-cider",      0,                     11},
+    {"",        "dwmb-volume",     0,                     9},
     {"",        "dwmb-rss",        0,                     3},
     {"",        "dwmb-vpn",        0,                     2},
     {"",        "dwmb-layout",     0,                     4},
@@ -15,5 +17,5 @@ static const Block blocks[] = {
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static char *delim = "|";
-static unsigned int delimLen = 5;
+static char *delim = "\0";
+static unsigned int delimLen = 0;
